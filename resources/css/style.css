@@ -14,6 +14,7 @@ body{
     height: 69px;
     width: 100%;
     align-items: center;
+    background-color: black;
 }
 
 .logo{
@@ -35,9 +36,43 @@ body{
     padding-left: 20px;
 }
 
+.mission-container{
+    position: relative;
+    
+}
 .mission-background{
     height: 700px;
     width: 1200px;
     align-items: center;
-    margin-top: 69px;
+    margin-top: 70px;
+}
+.mission-banner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    top: 350px;
+    background-color: black;
+    line-height: 1.5px;
+}
+
+.month-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    line-height: 1.5px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.tea-img{
+    height: 200px;
+    width: 300px;
 }
