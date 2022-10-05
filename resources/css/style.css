@@ -1,10 +1,11 @@
 body{
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
     text-align: center;
+
 }
 
 .header{
@@ -15,6 +16,7 @@ body{
     width: 100%;
     align-items: center;
     background-color: black;
+    margin-top: -8px;
 }
 
 .logo{
@@ -38,13 +40,13 @@ body{
 
 .mission-container{
     position: relative;
-    
+    z-index: -1;
 }
 .mission-background{
     height: 700px;
     width: 1200px;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 62px;
 }
 .mission-banner{
     position: absolute;
@@ -52,10 +54,11 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
     top: 350px;
     background-color: black;
     line-height: 1.5px;
+    width: 1200px;
+    margin-left: 344px;
 }
 
 .month-title{
@@ -67,12 +70,17 @@ body{
 }
 .img-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 1000px;
+    margin:auto;
 }
 
 .tea-img{
     height: 200px;
     width: 300px;
+}
+.tea-names{
+    padding-bottom: 15px;
+    margin-top: 10px;
 }
