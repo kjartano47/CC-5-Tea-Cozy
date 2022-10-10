@@ -70,7 +70,7 @@ body{
 }
 .img-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 1000px;
     margin:auto;
@@ -83,4 +83,51 @@ body{
 .tea-names{
     padding-bottom: 15px;
     margin-top: 10px;
+}
+.thumbnail{
+
+}
+
+.banner{
+    height: 500px;
+    max-width: 1250px;
+    margin: 40px auto auto auto;
+    padding-top: 40px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*14vf93r*_ga*MzkxOTE0MTk0MC4xNjYxNzc0MDQz*_ga_3LRZM6TM9L*MTY2NTQxMjk4Ni41NS4xLjE2NjU0MTMxMDkuMy4wLjA.');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top{
+    font-size: 43px;
+    font-weight: bold;
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+}
+
+.box{
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.contact{
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
 }
